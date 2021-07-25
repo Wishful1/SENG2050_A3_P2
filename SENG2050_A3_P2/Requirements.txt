@@ -1,0 +1,37 @@
+Minimum Requirements: 
+
+Implemented:
+
+2 different user roles in the system
+Users see different elements appropriate to their roll
+User registration/creation functionality
+Pre-filled DB with users, included credentials in readme.txt 
+Users can report issues and IT Staff can work to resolve them
+Issues have states associated to them
+User can accept or reject Staff incidence state changes
+Issues are categorized correctly
+IT staff can view all of the issues in the system
+Both IT staff and users can comment on an issue at any time before the issue is in its final state
+Users can only see their own issues
+Everyone can see knowledge base issues
+Staff can append issues to the knowledge base
+Users cannot see other users issues
+Issues have title, description, resolution details, comments, date and time reported, and date and time resolved
+IT staff may add an incident to the knowledge-base once its been set to completed or resolved
+A knowledge base article is viewable by all users and should show at least the original issue's name, description, resolution details, and date and time resolved
+
+Not Implemented:
+
+
+Additional Requirements:
+
+Implemented (30 points for 3 group members):
+
+“The current system works fine, I don’t want a new system exposing my internal comments to
+users if I mark it as a Knowledge-Base article” – IT staff. (weight 10)
+
+“It would be nice if the new system had a section for us to advertise any planned or current
+maintenance” – IT staff. (weight 5)
+
+“It would be nice if I could view the entire system on my mobile device as well” – User
+(weight 15)

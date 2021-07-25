@@ -1,0 +1,252 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80em;
+}
+
+/* High-Level Semantic Tags */
+
+nav {
+    padding: 1.5% 0 1.5% 0;
+    background-color: rgba(44, 44, 44, 0.65);
+    border-bottom: solid rgb(236, 196, 255);
+}
+
+/* Low-Level Tags */
+
+li {
+    display: inline;
+}
+
+li p {
+    display: inline;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 5% auto 0 auto;
+    padding: 2% 2% 2% 2%;
+    width: 80%;
+    height: 100%;
+    border: solid 2px rgb(236, 196, 255);
+}
+
+section p {
+    margin: 3% 0 0 0;
+}
+
+table {
+    padding: 0 0 0 1.5%;
+}
+
+ul {
+    padding: 0;
+}
+
+/* Block Elements */
+
+h1 {
+    font-size: 30pt;
+    text-align: left;
+    padding: 0 0 0 1.5%;
+}
+
+h2 {
+    font-size: 22pt;
+    text-align: left;
+    padding: 0 0 0 1.5%;
+}
+
+h3 {
+    font-size: 16pt;
+    text-align: left;
+    padding: 0 0 0 1.5%;
+}
+
+h4 {
+    font-size: 10pt;
+    text-align: left;
+    padding: 0 0 0 1.5%;
+}
+
+p {
+    font-size: 12pt;
+    padding: 0 0 0 1.5%;
+}
+
+input {
+    width: 180px;
+    padding: 0;
+    border: none;
+}
+
+select {
+    width: 180px;
+    padding: 0;
+    border: none;
+}
+
+textarea {
+    width: 180px;
+    height: 300px;
+    padding: 0;
+    border: 0;
+}
+
+td {
+    min-width: 80px;
+}
+
+/* Inline Elements */
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(236, 196, 255);
+}
+
+/* Classes */
+
+.big_box {
+    width: 800px;
+}
+
+.center_table {
+    overflow: scroll;
+}
+
+.center_table table td {
+    text-align: center;
+    width: 4.5%;
+}
+
+.center_table table td p {
+    margin: 5px;
+}
+
+.center_table table tr {
+    text-align: center;
+    width: 4.5%;
+}
+
+.large_button {
+    width: 200px;
+    height: 130px;
+    background-color: rgb(50, 19, 65);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    display: inline;
+}
+
+.login {
+    width: 20%;
+}
+
+/* ID/s */
+
+/* Specific Styling for Mobile */
+
+@media only screen and (max-width: 1200px) {
+
+    section {
+        background-color: rgba(0, 0, 0, 0.8);
+        margin: 5% auto 0 auto;
+        padding: 1% 1% 1% 1%;
+        width: 80%;
+        height: 100%;
+        border: solid 1px rgb(236, 196, 255);
+    }
+    
+    section p {
+        font-size: 10pt;
+        margin: 3% 0 0 0;
+    }
+
+    li p {
+        font-size: 0.75em;
+    }
+
+    h1 {
+        font-size: 18pt;
+        text-align: left;
+        padding: 0 0 0 1.5%;
+    }
+
+    h2 {
+        font-size: 14pt;
+        text-align: left;
+        padding: 0 0 0 1.5%;
+    }
+
+    h3 {
+        font-size: 12pt;
+        text-align: left;
+        padding: 0 0 0 1.5%;
+    }
+
+    h4 {
+        font-size: 10pt;
+        text-align: left;
+        padding: 0 0 0 1.5%;
+    }
+
+    input {
+        width: 150px;
+        padding: 0;
+        border: none;
+    }
+
+    select {
+        width: 90px;
+        padding: 0;
+        border: none;
+    }
+
+    textarea {
+        width: 90px;
+        height: 300px;
+        padding: 0;
+        border: 0;
+    }
+
+    td {
+        width: 90px;
+    }
+
+    .big_box {
+        width: 180px;
+    }
+
+    .login {
+        width: 80%;
+    }
+    
+}
+
+/* Only background classes under this comment */
+
+.newcastle_background {
+    background-image: url("images/newcastle.jpg");
+}
+
+.anzac_walk_background {
+    background-image: url("images/anzac_walk.jpg");
+}
+
+.council_building_background {
+    background-image: url("images/council_building.jpg");
+}

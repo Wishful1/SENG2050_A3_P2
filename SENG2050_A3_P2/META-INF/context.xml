@@ -1,0 +1,19 @@
+<Context>
+    <Resource name="jdbc/itservices"
+        auth="Container"
+        type="javax.sql.DataSource"
+        username="jdbcUserseng2050"
+		password="mypassword"
+        driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+		url="jdbc:sqlserver://localhost\SQLEXPRESS;databaseName=SENG2050"/>
+	<Realm className="org.apache.catalina.realm.LockOutRealm">
+		<Realm className="org.apache.catalina.realm.DataSourceRealm"
+			dataSourceName="jdbc/itservices"
+			localDataSource="true"
+			userTable="Users"
+			userNameCol="UserName"
+			userCredCol="Password"
+			userRoleTable="UserRoles"
+			roleNameCol="RoleName" />
+	</Realm>
+</Context>
